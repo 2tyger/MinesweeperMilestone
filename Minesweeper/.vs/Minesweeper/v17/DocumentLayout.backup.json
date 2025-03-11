@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspaceCST-150\\Minesweeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A90FF5-7C74-4D1B-A6C2-7DAF7DA64F5B}|..\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj|d:\\workspacecst-150\\minesweeper-app\\minesweeper-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweeper-class\\minesweeper-class\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweeper-class\\minesweeper-class\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A90FF5-7C74-4D1B-A6C2-7DAF7DA64F5B}|..\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj|d:\\workspacecst-150\\minesweeper-app\\minesweeper-app\\minesweeperapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweeper-class\\minesweeper-class\\minesweepermodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:45:54.049Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MinesweeperApp.csproj",
+              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj",
+              "RelativeDocumentMoniker": "..\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj",
+              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj",
+              "RelativeToolTip": "..\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T04:48:34.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "RelativeToolTip": "..\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwv1IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:48:13.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAQwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T04:45:49.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinesweeperModel.csproj",
+              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj",
+              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T04:45:29.238Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
