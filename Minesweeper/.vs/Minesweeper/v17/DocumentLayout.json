@@ -1,15 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspaceCST-150\\Minesweeper\\",
+  "WorkspaceRootPath": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweeper-class\\minesweeper-class\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A90FF5-7C74-4D1B-A6C2-7DAF7DA64F5B}|..\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper-app\\minesweeper-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweeper-class\\minesweeper-class\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper-class\\minesweeper-class\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A90FF5-7C74-4D1B-A6C2-7DAF7DA64F5B}|..\\Minesweeper-App\\Minesweeper-App\\MinesweeperApp.csproj|d:\\workspacecst-150\\minesweeper-app\\minesweeper-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper-class\\minesweeper-class\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,22 +19,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cell.cs",
-              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
-              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
-              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
-              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T04:45:54.049Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -49,28 +35,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-App\\Minesweeper-App\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Minesweeper-App\\Minesweeper-App\\Program.cs",
-              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-App\\Minesweeper-App\\Program.cs",
-              "RelativeToolTip": "..\\Minesweeper-App\\Minesweeper-App\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwFgAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T04:48:13.24Z",
+              "WhenOpened": "2025-03-11T17:29:55.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Board.cs",
-              "DocumentMoniker": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
-              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
-              "ToolTip": "D:\\workspaceCST-150\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
-              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAUwLsAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T04:45:49.427Z",
+              "WhenOpened": "2025-03-11T17:29:26.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "RelativeToolTip": "..\\Minesweeper-App\\Minesweeper-App\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:58:10.983Z",
               "EditorCaption": ""
             }
           ]

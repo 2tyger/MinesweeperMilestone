@@ -42,6 +42,40 @@
             }
         }
 
+        // recursive flood fill algorithm to reveal empty areas
+        public void FloodFill(int row, int col)
+        {
+            // check if the cell is out of bounds or already visited
+            if (row < 0 || row >= Size || col < 0 || col >= Size)
+                return;
+
+            if (Cells[row, col].IsVisited || Cells[row, col].IsFlagged)
+                return;
+
+            if (Cells[row, col].IsBomb)
+                return; // do not reveal bombs
+
+            // mark the cell as visited
+            Cells[row, col].IsVisited = true;
+
+            // if the cell has neighboring bombs, stop the recursion here
+            if (Cells[row, col].NumberOfBombNeighbors > 0)
+                return;
+
+            // recursive call floodfill on surrounding (8) cells
+            FloodFill(row - 1, col); // up
+            FloodFill(row + 1, col); // down
+            FloodFill(row, col - 1); // left
+            FloodFill(row, col + 1); // right
+            FloodFill(row - 1, col - 1); // topleft
+            FloodFill(row - 1, col + 1); // topright
+            FloodFill(row + 1, col - 1); // bottomleft
+            FloodFill(row + 1, col + 1); // bottomright
+
+            // check if all safe cells are visited
+            DetermineGameState();
+        }
+
         private void PlaceReward()
         {
             // randomly select cell for reward and ensures that no bomb is placed there

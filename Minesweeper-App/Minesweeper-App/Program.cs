@@ -45,20 +45,37 @@ class Program
             else if (action == 1)
             {
                 // visit
-                board.Cells[row, col].IsVisited = true;
+                if (!board.Cells[row, col].IsVisited)
+                {
+                    if (board.Cells[row, col].NumberOfBombNeighbors == 0)
+                    {
+                        // trigger flood fill to reveal surrounding empty space
+                        board.FloodFill(row, col);
+                    }
+                    else
+                    {
+                        // reveal only this cell
+                        board.Cells[row, col].IsVisited = true;
+                    }
+                }
+
+                if (board.DetermineGameState() == GameState.Won)
+                {
+                    Console.WriteLine("\nCongratulations! You won the game!");
+                    board.PrintBoard(true); // reveal full board
+                    break; // exit loop
+                }
 
                 if (board.Cells[row, col].IsBomb)
                 {
-                    // player hit bomb
-                    Console.WriteLine("\nYou hit a bomb! Game Over.");
-                    Console.WriteLine("Here is the full board:"); // reveal all bombs
-                    board.PrintBoard(true); // exit
+                    Console.WriteLine("\nYou hit a bomb! game over.");
+                    Console.WriteLine("here is the full board:");
+                    board.PrintBoard(true);
                     break;
                 }
 
                 if (board.Cells[row, col].HasSpecialReward)
                 {
-                    // player found reward
                     Console.WriteLine("\nYou found a special reward!");
                     rewardAvailable = true;
                     board.Cells[row, col].HasSpecialReward = false;

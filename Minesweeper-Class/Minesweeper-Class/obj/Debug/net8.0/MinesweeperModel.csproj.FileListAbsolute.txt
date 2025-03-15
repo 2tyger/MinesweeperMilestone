@@ -9,3 +9,15 @@ D:\workspaceCST-150\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\Mineswe
 D:\workspaceCST-150\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\refint\MinesweeperModel.dll
 D:\workspaceCST-150\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.pdb
 D:\workspaceCST-150\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\ref\MinesweeperModel.dll
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\bin\Debug\net8.0\MinesweeperModel.deps.json
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\bin\Debug\net8.0\MinesweeperModel.dll
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\bin\Debug\net8.0\MinesweeperModel.pdb
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.AssemblyInfoInputs.cache
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.AssemblyInfo.cs
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.csproj.CoreCompileInputs.cache
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.sourcelink.json
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.dll
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\refint\MinesweeperModel.dll
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\MinesweeperModel.pdb
+D:\workspaceCST-150\MinesweeperMilestone\Minesweeper-Class\Minesweeper-Class\obj\Debug\net8.0\ref\MinesweeperModel.dll
