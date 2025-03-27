@@ -1,4 +1,6 @@
-﻿namespace MinesweeperModel
+﻿using System.Diagnostics;
+
+namespace MinesweeperModel
 {
     // represents possible game states
     public enum GameState
@@ -15,7 +17,7 @@
         public Cell[,] Cells { get; } // 2d array of cells
         public GameState State { get; private set; } = GameState.InProgress; // current game state
         private int TotalBombs; // total number of bombs on board
-        public bool RewardCollected { get; private set; } = false; // tracks if the reward was collected
+        public bool RewardCollected { get; set; } = false; // tracks if the reward was collected
         private int rewardRow, rewardCol; // stores reward location
 
         public Board(int size, int bombCount)
@@ -30,7 +32,7 @@
             CountBombsNearby(); // calculate number of nearby bombs for each cell
         }
 
-        private void InitializeBoard()
+        public void InitializeBoard()
         {
             // creates empty board with default cells
             for (int row = 0; row < Size; row++)
@@ -42,71 +44,101 @@
             }
         }
 
+        public void PrintBombCounts()
+        {
+            for (int row = 0; row < Size; row++)
+            {
+                for (int col = 0; col < Size; col++)
+                {
+                    Console.Write($"{Cells[row, col].NumberOfBombNeighbors} ");
+                }
+                Console.WriteLine();
+            }
+        }
+
         // recursive flood fill algorithm to reveal empty areas
         public void FloodFill(int row, int col)
         {
-            // check if the cell is out of bounds or already visited
-            if (row < 0 || row >= Size || col < 0 || col >= Size)
-                return;
+            // check if cell is out of bounds
+            if (row < 0 || row >= Size || col < 0 || col >= Size) return;
 
-            if (Cells[row, col].IsVisited || Cells[row, col].IsFlagged)
-                return;
+            // stop if already visited, flagged, or if it's a bomb
+            if (Cells[row, col].IsVisited || Cells[row, col].IsFlagged || Cells[row, col].IsBomb) return;
 
-            if (Cells[row, col].IsBomb)
-                return; // do not reveal bombs
-
-            // mark the cell as visited
+            // mark as visited
             Cells[row, col].IsVisited = true;
 
-            // if the cell has neighboring bombs, stop the recursion here
-            if (Cells[row, col].NumberOfBombNeighbors > 0)
-                return;
+            // STOP FloodFill if this cell has a bomb neighbor!
+            if (Cells[row, col].NumberOfBombNeighbors > 0) return;
 
-            // recursive call floodfill on surrounding (8) cells
-            FloodFill(row - 1, col); // up
-            FloodFill(row + 1, col); // down
-            FloodFill(row, col - 1); // left
-            FloodFill(row, col + 1); // right
-            FloodFill(row - 1, col - 1); // topleft
-            FloodFill(row - 1, col + 1); // topright
-            FloodFill(row + 1, col - 1); // bottomleft
-            FloodFill(row + 1, col + 1); // bottomright
+            // recursively reveal empty neighbors
+            FloodFill(row - 1, col); // Up
+            FloodFill(row + 1, col); // Down
+            FloodFill(row, col - 1); // Left
+            FloodFill(row, col + 1); // Right
+            FloodFill(row - 1, col - 1); // Top left
+            FloodFill(row - 1, col + 1); // Top right
+            FloodFill(row + 1, col - 1); // Bottom left
+            FloodFill(row + 1, col + 1); // Bottom right
 
-            // check if all safe cells are visited
             DetermineGameState();
+
         }
 
         private void PlaceReward()
         {
             // randomly select cell for reward and ensures that no bomb is placed there
-            Random rand = new Random();
-            rewardRow = rand.Next(Size);
-            rewardCol = rand.Next(Size);
+            //Random rand = new Random();
+            //rewardRow = rand.Next(Size);
+            //rewardCol = rand.Next(Size);
+            //Cells[rewardRow, rewardCol].HasSpecialReward = true;
+            rewardRow = 0;
+            rewardCol = 0;
             Cells[rewardRow, rewardCol].HasSpecialReward = true;
         }
 
         private void SetupBombs()
         {
-            // places bomb randomly ensuring no bomb is placed in reward location
             Random rand = new Random();
             int bombsPlaced = 0;
+
+            Debug.WriteLine($"Placing {TotalBombs} bombs on a {Size}x{Size} board.");
 
             while (bombsPlaced < TotalBombs)
             {
                 int row = rand.Next(Size);
                 int col = rand.Next(Size);
 
-                if (!Cells[row, col].IsBomb && !Cells[row, col].HasSpecialReward) // no bomb under reward
+                // ensure a bomb isn't placed where the reward is located
+                if (!Cells[row, col].IsBomb && !Cells[row, col].HasSpecialReward)
                 {
                     Cells[row, col].IsBomb = true;
                     bombsPlaced++;
+
+                    Debug.WriteLine($"Bomb placed at [{row}, {col}]");
                 }
             }
+
+            // debug: verify at least some bombs were placed
+            if (bombsPlaced == 0)
+            {
+                Debug.WriteLine("WARNING: No bombs placed! Something is wrong!");
+            }
+
+            Console.WriteLine("Final bomb placements:");
+            for (int row = 0; row < Size; row++)
+            {
+                for (int col = 0; col < Size; col++)
+                {
+                    if (Cells[row, col].IsBomb)
+                        Console.Write($"[{row}, {col}] ");
+                }
+            }
+            Console.WriteLine();
         }
 
         private void CountBombsNearby()
         {
-            // counts how many bombs are in adjacent cells for each cell
             for (int row = 0; row < Size; row++)
             {
                 for (int col = 0; col < Size; col++)
@@ -114,6 +146,11 @@
                     if (!Cells[row, col].IsBomb)
                     {
                         Cells[row, col].NumberOfBombNeighbors = GetNeighborBombCount(row, col);
+
+                        if (Cells[row, col].NumberOfBombNeighbors > 0)
+                        {
+                            Debug.WriteLine($"Cell [{row}, {col}] has {Cells[row, col].NumberOfBombNeighbors} neighboring bombs.");
+                        }
                     }
                 }
             }
@@ -138,7 +175,6 @@
 
         public GameState DetermineGameState()
         {
-            // checks if win or lose
             if (Cells.Cast<Cell>().Any(cell => cell.IsBomb && cell.IsVisited))
             {
                 State = GameState.Lost;
@@ -147,8 +183,10 @@
             {
                 State = GameState.Won;
             }
+
             return State;
         }
+
 
         public void PrintBoard(bool revealBombs = false)
         {
