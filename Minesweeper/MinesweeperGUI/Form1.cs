@@ -156,17 +156,21 @@ namespace MinesweeperGUI
             gameTimer?.Stop(); // stop timer when winning
 
             TimeSpan duration = DateTime.Now - gameStartTime;
-
             int sizeFactor = boardSize;
             int difficultyFactor = bombPercentage;
             int timePenalty = (int)duration.TotalSeconds;
             int baseScore = (sizeFactor * difficultyFactor * 10) - timePenalty;
-
             if (baseScore < 0) baseScore = 0;
-
             lblScore.Text = baseScore.ToString();
 
             MessageBox.Show($"You won!\nScore: {baseScore}\nTime: {duration.TotalSeconds:F1} seconds", "Victory!");
+
+            using Form3 nameForm = new Form3(baseScore);
+            if (nameForm.ShowDialog() == DialogResult.OK)
+            {
+                using Form4 scoreForm = new Form4(nameForm.PlayerName, baseScore);
+                scoreForm.ShowDialog();
+            }
         }
 
 
