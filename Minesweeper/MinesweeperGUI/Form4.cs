@@ -17,22 +17,32 @@ namespace MinesweeperGUI
         private GameStat gameStat;
         private BindingSource bindingSource = new BindingSource();
 
-        public Form4(string name, int score)
+        public Form4(string name, int score, TimeSpan duration)
         {
             InitializeComponent();
 
             GameStat gameStat = new GameStat
             {
+                Id = GameStatManager.Stats.Count + 1,
                 Name = name,
                 Score = score,
                 Date = DateTime.Now,
-                Id = GameStatManager.Stats.Count + 1
+                Duration = duration
             };
 
             GameStatManager.Stats.Add(gameStat);
+
+            // Update Grid
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = GameStatManager.Stats;
+
+            int avgScore = GameStatManager.Stats.Any() ? (int)GameStatManager.Stats.Average(s => s.Score) : 0;
+            double avgTime = GameStatManager.Stats.Any() ? GameStatManager.Stats.Average(s => s.Duration.TotalSeconds) : 0;
+
+            lblAverageScore.Text = $"Average Score: {avgScore}";
+            lblAverageTime.Text = $"Average Time: {avgTime:F1} seconds";
         }
+
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {

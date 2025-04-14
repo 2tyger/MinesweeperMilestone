@@ -11,20 +11,46 @@
       "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\minesweepergui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper-class\\minesweeper-class\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\resources\\tile2.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\resources\\tile2.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3654587B-E67F-4241-B4F4-51CCD0C814AB}|..\\Minesweeper-Class\\Minesweeper-Class\\MinesweeperModel.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper-class\\minesweeper-class\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\gamestat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\gamestat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\gamestatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\gamestatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|d:\\workspacecst-150\\minesweepermilestone\\minesweeper\\minesweepergui\\gamestat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\gamestat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD10A3EB-076B-4C16-A82C-AE2FB66CFB8A}|MinesweeperGUI\\MinesweeperGUI.csproj|solutionrelative:minesweepergui\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +60,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,45 +76,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4.Designer.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form4.Designer.cs",
+              "RelativeDocumentMoniker": "MinesweeperGUI\\Form4.Designer.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form4.Designer.cs",
+              "RelativeToolTip": "MinesweeperGUI\\Form4.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:41:04.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tile2.png",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Resources\\Tile2.png",
+              "RelativeDocumentMoniker": "MinesweeperGUI\\Resources\\Tile2.png",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Resources\\Tile2.png",
+              "RelativeToolTip": "MinesweeperGUI\\Resources\\Tile2.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-04-13T22:36:30.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form2.cs",
+              "RelativeDocumentMoniker": "MinesweeperGUI\\Form2.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form2.cs",
+              "RelativeToolTip": "MinesweeperGUI\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:04:41.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form1.cs",
+              "RelativeDocumentMoniker": "MinesweeperGUI\\Form1.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form1.cs",
+              "RelativeToolTip": "MinesweeperGUI\\Form1.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwAUBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:58:49.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Board.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwPoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:52:51.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "RelativeDocumentMoniker": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "RelativeToolTip": "..\\Minesweeper-Class\\Minesweeper-Class\\Cell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:52:41.225Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form4.cs",
               "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form4.cs",
               "RelativeDocumentMoniker": "MinesweeperGUI\\Form4.cs",
               "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form4.cs",
               "RelativeToolTip": "MinesweeperGUI\\Form4.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T08:11:37.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Form3.cs",
               "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form3.cs",
               "RelativeDocumentMoniker": "MinesweeperGUI\\Form3.cs",
               "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form3.cs",
               "RelativeToolTip": "MinesweeperGUI\\Form3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T08:11:08.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form3.cs",
-              "RelativeDocumentMoniker": "MinesweeperGUI\\Form3.cs",
-              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form3.cs [Design]",
-              "RelativeToolTip": "MinesweeperGUI\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T08:10:52.828Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "GameStatManager.cs",
               "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\GameStatManager.cs",
               "RelativeDocumentMoniker": "MinesweeperGUI\\GameStatManager.cs",
@@ -96,12 +183,11 @@
               "RelativeToolTip": "MinesweeperGUI\\GameStatManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T08:10:29.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T08:10:29.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "GameStat.cs",
               "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\GameStat.cs",
               "RelativeDocumentMoniker": "MinesweeperGUI\\GameStat.cs",
@@ -109,8 +195,11 @@
               "RelativeToolTip": "MinesweeperGUI\\GameStat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T18:23:49.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T18:23:49.696Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -123,6 +212,28 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T18:33:21.008Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form1.cs",
+              "RelativeDocumentMoniker": "MinesweeperGUI\\Form1.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form1.cs [Design]",
+              "RelativeToolTip": "MinesweeperGUI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:53:24.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form3.cs",
+              "RelativeDocumentMoniker": "MinesweeperGUI\\Form3.cs",
+              "ToolTip": "D:\\workspaceCST-150\\MinesweeperMilestone\\Minesweeper\\MinesweeperGUI\\Form3.cs [Design]",
+              "RelativeToolTip": "MinesweeperGUI\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T08:10:52.828Z"
             }
           ]
         }

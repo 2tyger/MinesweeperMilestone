@@ -19,6 +19,7 @@ namespace MinesweeperModel
         private int TotalBombs; // total number of bombs on board
         public bool RewardCollected { get; set; } = false; // tracks if the reward was collected
         private int rewardRow, rewardCol; // stores reward location
+        public static bool RewardUsedThisGame { get; set; } = false;
 
         public Board(int size, int bombCount)
         {
@@ -87,11 +88,6 @@ namespace MinesweeperModel
 
         private void PlaceReward()
         {
-            // randomly select cell for reward and ensures that no bomb is placed there
-            //Random rand = new Random();
-            //rewardRow = rand.Next(Size);
-            //rewardCol = rand.Next(Size);
-            //Cells[rewardRow, rewardCol].HasSpecialReward = true;
             rewardRow = 0;
             rewardCol = 0;
             Cells[rewardRow, rewardCol].HasSpecialReward = true;

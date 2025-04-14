@@ -40,6 +40,8 @@
             byDateToolStripMenuItem = new ToolStripMenuItem();
             btnOK = new Button();
             label1 = new Label();
+            lblAverageScore = new Label();
+            lblAverageTime = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -71,21 +73,21 @@
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(180, 22);
+            saveToolStripMenuItem.Size = new Size(100, 22);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // loadToolStripMenuItem
             // 
             loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            loadToolStripMenuItem.Size = new Size(180, 22);
+            loadToolStripMenuItem.Size = new Size(100, 22);
             loadToolStripMenuItem.Text = "Load";
             loadToolStripMenuItem.Click += loadToolStripMenuItem_Click;
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(180, 22);
+            exitToolStripMenuItem.Size = new Size(100, 22);
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
@@ -99,21 +101,21 @@
             // byNameToolStripMenuItem
             // 
             byNameToolStripMenuItem.Name = "byNameToolStripMenuItem";
-            byNameToolStripMenuItem.Size = new Size(180, 22);
+            byNameToolStripMenuItem.Size = new Size(122, 22);
             byNameToolStripMenuItem.Text = "By Name";
             byNameToolStripMenuItem.Click += byNameToolStripMenuItem_Click;
             // 
             // byScoreToolStripMenuItem
             // 
             byScoreToolStripMenuItem.Name = "byScoreToolStripMenuItem";
-            byScoreToolStripMenuItem.Size = new Size(180, 22);
+            byScoreToolStripMenuItem.Size = new Size(122, 22);
             byScoreToolStripMenuItem.Text = "By Score";
             byScoreToolStripMenuItem.Click += byScoreToolStripMenuItem_Click;
             // 
             // byDateToolStripMenuItem
             // 
             byDateToolStripMenuItem.Name = "byDateToolStripMenuItem";
-            byDateToolStripMenuItem.Size = new Size(180, 22);
+            byDateToolStripMenuItem.Size = new Size(122, 22);
             byDateToolStripMenuItem.Text = "By Date";
             byDateToolStripMenuItem.Click += byDateToolStripMenuItem_Click;
             // 
@@ -136,11 +138,31 @@
             label1.TabIndex = 3;
             label1.Text = "High Scores:";
             // 
+            // lblAverageScore
+            // 
+            lblAverageScore.AutoSize = true;
+            lblAverageScore.Location = new Point(110, 419);
+            lblAverageScore.Name = "lblAverageScore";
+            lblAverageScore.Size = new Size(36, 15);
+            lblAverageScore.TabIndex = 4;
+            lblAverageScore.Text = "Score";
+            // 
+            // lblAverageTime
+            // 
+            lblAverageTime.AutoSize = true;
+            lblAverageTime.Location = new Point(290, 419);
+            lblAverageTime.Name = "lblAverageTime";
+            lblAverageTime.Size = new Size(33, 15);
+            lblAverageTime.TabIndex = 5;
+            lblAverageTime.Text = "Time";
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblAverageTime);
+            Controls.Add(lblAverageScore);
             Controls.Add(label1);
             Controls.Add(btnOK);
             Controls.Add(dataGridView1);
@@ -169,5 +191,7 @@
         private ToolStripMenuItem byDateToolStripMenuItem;
         private Button btnOK;
         private Label label1;
+        private Label lblAverageScore;
+        private Label lblAverageTime;
     }
 }

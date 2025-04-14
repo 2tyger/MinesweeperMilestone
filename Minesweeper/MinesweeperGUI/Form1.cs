@@ -2,7 +2,9 @@
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using MinesweeperModel;
+using static System.Formats.Asn1.AsnWriter;
 using Timer = System.Windows.Forms.Timer;
 
 namespace MinesweeperGUI
@@ -17,6 +19,7 @@ namespace MinesweeperGUI
         private bool rewardUsed = false;
         private Timer gameTimer;
         private int elapsedSeconds = 0;
+        private Point? rewardLocation = null;
 
         public Form1(int size, int bombs)
         {
@@ -37,21 +40,17 @@ namespace MinesweeperGUI
             gameStartTime = DateTime.Now;
             panelGameBoard.Controls.Clear();
             GenerateGrid();
-
             UpdateButtonFaces();
-
             elapsedSeconds = 0;
-            lblStartTime.Text = "0s";
 
             gameTimer = new Timer();
-            gameTimer.Interval = 1000; // 1 second
+            gameTimer.Interval = 1000;
             gameTimer.Tick += (s, e) =>
             {
                 elapsedSeconds++;
                 lblStartTime.Text = $"{elapsedSeconds}s";
             };
             gameTimer.Start();
-
         }
 
         private void GenerateGrid()
@@ -104,6 +103,11 @@ namespace MinesweeperGUI
                         btn.BackColor = Color.LightBlue;
                         btn.BackgroundImage = null;
                     }
+                    else if (rewardLocation.HasValue && rewardLocation.Value == new Point(row, col))
+                    {
+                        btn.Text = "";
+                        btn.BackgroundImage = Properties.Resources.Gold;
+                    }
                     else if (!cell.IsVisited)
                     {
                         btn.Text = "";
@@ -113,11 +117,6 @@ namespace MinesweeperGUI
                     {
                         btn.Text = "";
                         btn.BackgroundImage = Properties.Resources.Skull;
-                    }
-                    else if (cell.HasSpecialReward)
-                    {
-                        btn.Text = "";
-                        btn.BackgroundImage = Properties.Resources.Gold;
                     }
                     else if (cell.NumberOfBombNeighbors >= 1 && cell.NumberOfBombNeighbors <= 8)
                     {
@@ -168,19 +167,18 @@ namespace MinesweeperGUI
             using Form3 nameForm = new Form3(baseScore);
             if (nameForm.ShowDialog() == DialogResult.OK)
             {
-                using Form4 scoreForm = new Form4(nameForm.PlayerName, baseScore);
+                using Form4 scoreForm = new Form4(nameForm.PlayerName, baseScore, duration);
                 scoreForm.ShowDialog();
             }
         }
-
-
-
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
             gameTimer?.Stop();
             board = new Board(boardSize, bombPercentage);
             rewardUsed = false;
+            rewardLocation = null;
+            Board.RewardUsedThisGame = false;
             InitializeGameBoard();
         }
 
@@ -203,13 +201,24 @@ namespace MinesweeperGUI
             else if (e.Button == MouseButtons.Middle)
             {
                 // reward usage
-                if (!rewardUsed && board.RewardCollected)
+                if (!Board.RewardUsedThisGame && board.RewardCollected)
                 {
-                    rewardUsed = true;
+                    Board.RewardUsedThisGame = true;
+
+                    // flip gold tile back to Tile2
+                    if (rewardLocation.HasValue)
+                    {
+                        var p = rewardLocation.Value;
+                        board.Cells[p.X, p.Y].IsVisited = true;
+                        rewardLocation = null;
+                    }
+
                     string message = cell.IsBomb
                         ? "This cell contains a BOMB!"
                         : $"This cell has {cell.NumberOfBombNeighbors} neighboring bombs.";
                     MessageBox.Show(message, "Reward Used");
+
+                    UpdateButtonFaces();
                 }
                 else if (!board.RewardCollected)
                 {
@@ -248,6 +257,7 @@ namespace MinesweeperGUI
                         MessageBox.Show("You found a reward! You can peek at any cell.");
                         cell.HasSpecialReward = false;
                         board.RewardCollected = true;
+                        rewardLocation = new Point(row, col);
                     }
                     else if (cell.NumberOfBombNeighbors == 0)
                     {
